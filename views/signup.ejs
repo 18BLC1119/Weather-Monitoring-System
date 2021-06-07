@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    
+    <!-- my css -->
+    <style>
+      body {
+    background-color: #E27D60;
+}
+a{
+  color: #fff;
+  background-color: #10555A;
+  text-decoration:none;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+footer{
+  text-align:center;
+  background:#6cf;
+  bottom:0;
+   width:100%;
+   height:60px; 
+}
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h1{
+    text-align: center;
+    font-size: 65px;
+    background-color: orange;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+    </style>
+    <title>Client Signup</title>
+  </head>
+  <body>
+    <h1>Client Signup</h1>
+
+        <form action="/signup/new" method="POST">
+            <label for="user_name"></label>
+            <input type="text" name="user_name" placeholder="User Name" id="user_name">
+            <br>
+            <label for="email"></label>
+            <input type="email" name="email" placeholder="email" id="email">
+            <br>
+            <label for="mobile_number"></label>
+            <input type="mobile_number" name="mobile_number" placeholder="Mobile Number" id="mobile_number">
+            <br>
+            <label for="password"></label>
+            <input type="password" name="password" placeholder="Password" id="password">
+            <br>
+            <label for="location_to_add"></label>
+            <input type="text" name="location_to_add" placeholder="location_to_add" id="location_to_add">
+            <br>
+            <button><h2>Submit</h2></button>
+        </form>
+  
+   </div>
+
+  </body>
+      <footer>
+        <p>Contact Developer: @Ashish Kumar 18BLC1119, @Rishik Kishu 18BLC1110<br>
+        <a href="https://www.linkedin.com/in/ashish-kumar-549914169/">Ashish's LinedIn Account</a>
+        <a href="https://www.linkedin.com/in/rishik-kishu-5a3740175/">Rishik's LinedIn Account</a>
+    </footer>
+</html>
