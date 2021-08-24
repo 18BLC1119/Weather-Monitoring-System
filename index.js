@@ -15,7 +15,7 @@ app.use(express.urlencoded({extended:true}))
 
 
 
-const DB='mongodb+srv://ashish:ashish@cluster0.ex1a9.mongodb.net/ashish?retryWrites=true&w=majority';
+const DB='mongodb+srv://ashish:ashish@cluster0.ex1a9.mongodb.net/(password)?retryWrites=true&w=majority';
 mongoose.connect(DB,{
 	useNewUrlParser:true,
 	useCreateIndex:true,
